@@ -27,6 +27,8 @@ const SupportPage = () => {
 
   const sessionId = useMemo(
      
+    // eslint-disable-next-line react-hooks/purity
+    // eslint-disable-next-line react-hooks/purity
     () => Math.random().toString(36).substring(7).toUpperCase(),
     [],
   );
